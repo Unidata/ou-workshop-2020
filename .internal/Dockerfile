@@ -18,12 +18,15 @@ USER $NB_UID
 RUN conda install --quiet --yes \
     'ipywidgets=7.2*' \
     'conda-forge::nb_conda_kernels'  && \
+    conda install --quiet --yes -c damianavila82 rise && \
     wget https://raw.githubusercontent.com/Unidata/ou-workshop-2020/master/environment.yml && \
     conda env update --name ou-workshop-2020 -f environment.yml && \
     rm environment.yml && \
     pip install --no-cache-dir nbgitpuller && \
     conda clean --all -f -y && \
+    jupyter nbextension install --py rise --sys-prefix && \
     jupyter nbextension enable --py widgetsnbextension --sys-prefix && \
+    jupyter nbextension enable --py rise --sys-prefix && \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager@^1.0.1 --no-build && \
     jupyter labextension install jupyterlab_bokeh@1.0.0 --no-build && \
     jupyter lab build --dev-build=False && \
