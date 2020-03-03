@@ -1,0 +1,19 @@
+ name: ou-workshop-2020
+ channels:
+   - conda-forge/label/metpy_rc
+   - conda-forge
+ dependencies:
+   - python>=3.6,<3.8
+   - numpy
+   - matplotlib
+   - cartopy
+   - jupyter
+   - metpy
+   - siphon
+   - pandas
+   - xarray
+   - ipywidgets
+   - ffmpeg
+   - boto3
+   - botocore
+   - jupyterlab
