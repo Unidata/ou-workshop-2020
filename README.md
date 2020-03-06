@@ -13,7 +13,7 @@ Where: University of Oklahoma, School of Meteorology, 3910
 | 10:00 | Break                                                                                                                                  |              |
 | 10:30 | Hands on demo of MetPy                                                                                                                 | Ryan         |
 | 11:30 | Break into disciplinary groups (as appropriate, based on participants) and brainstorm ideas of how to incorporate tools into classroom |              |
-| 12:00 | Lunch (Flying cow cafeteria, #34 on campus map)                                                                                        |              |
+| 12:00 | Lunch                                                                                                                                 |  All           |
 | 13:00 | Education presentation on Machine Learning                                                                                             | Dr. McGovern |
 | 14:00 | Brainstorm ideas for classroom activity with Unidata tools and develop objectives                                                      |              |
 | 14:30 | Break                                                                                                                                  |              |
